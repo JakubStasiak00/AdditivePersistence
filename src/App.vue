@@ -103,6 +103,7 @@ form {
 @media screen and (min-width: 500px) {
 
     #app {
+        height: auto;
         max-width: 400px;
         position: absolute;
         top: 40%;
