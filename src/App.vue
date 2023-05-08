@@ -78,6 +78,12 @@ const calculateResult = n => {
 <style lang="scss">
 #app {
     background-color: rgb(92, 189, 92);
+    height: 100vh;
+    padding-top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-inline: 1rem;
 }
 
 body {
@@ -95,6 +101,7 @@ form {
 }
 
 @media screen and (min-width: 500px) {
+
     #app {
         max-width: 400px;
         position: absolute;
